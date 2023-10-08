@@ -4,7 +4,7 @@
 2. Share an example of using the command with a path to a directory as an argument.
 3. Share an example of using the command with a path to a file as an argument.
 
-##cd:
+## cd:
 **1. cd with no arguments**
 ```
 {
@@ -52,7 +52,7 @@
 - I got the output of "bash: cd: /home/lecture1/messages/zh-cn.txt: Not a directory".  I got this because cd is for changing the current working directory  to the given path, but in this case, it is asked to go into a text file, which will cause issues and not recognize the code and work.
 - Therefore, the output is an error because the command is for changing directory, not going into files, so it outputs the same directory from the beginning.
 
-##cd:
+## ls:
 **1. ls with no arguments**
 ```
 {
@@ -103,7 +103,7 @@
 - I got the output of "/home/lecture1/messages/zh-cn.txt", this is because ls can only show the the list of files or folders in the directory, which, in this case, it is asked to show the list in a file that caused an error.
 - Therefore, the output is an error because it can not show the list in a file and causes it to output the directory it is asked to show.
 
-##cat:
+## cat:
 **1. cat with no arguments**
 ```
   {
