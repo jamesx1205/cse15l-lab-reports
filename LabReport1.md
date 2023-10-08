@@ -19,6 +19,7 @@
 - The working directory when the command runs is "/home."
 - I got the output of noting because I cd brings me back to the home directory, and since I am in the home directory, it does nothing.
 - The output is not an error.
+  
 **2. cd with a path to a directory as an argument**
 ```
 {
