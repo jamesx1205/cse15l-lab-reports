@@ -67,7 +67,7 @@
 }
 ```
 - The working directory when the command runs is `/home`.
-- I got the output of "lecture1" because `ls` is used to list the files and folder in the given path. Since I was on the path `/home`, it showed me the list of files and folders in director, which only has `lecture1`.
+- I got the output of `lecture1` because `ls` is used to list the files and folder in the given path. Since I was on the path `/home`, it showed me the list of files and folders in director, which only has `lecture1`.
 - This output is not an error.
 
 **2. ls with a path to a directory as an argument**
