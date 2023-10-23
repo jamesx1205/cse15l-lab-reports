@@ -117,4 +117,6 @@ Using the command line, show with `ls` and take screenshots of:
 ## A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 ![Image](CSE_15L_Log_into_ieng6.png)
 
-
+# Part 3
+- In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
+I learned that we can use ssh to log into a remote server. I learned that we can use `curl` to access web pages in the terminal. Something I think is interesting is that I can create access keys on the remote server using `scp` and not need to use the password anymore when logging into the remote server. I also learned that we can use `man` to see the manual on the terminal of any command that we are unfamiliar with. 
