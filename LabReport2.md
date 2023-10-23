@@ -108,5 +108,13 @@ Using the command line, show with `ls` and take screenshots of:
 2. The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
 3. A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 
-## The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+## The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)：
+![Image](CSE15L Private Key.png）
+
+## The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6):
+![Image](CSE15L public Key.png）
+
+## A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+![Image](CSE 15L Log into ieng6.png）
+
 
