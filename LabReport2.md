@@ -79,7 +79,7 @@ using `add-message?s=Hello`
 ## Second screenshot
 using `add-message?s=Hello`
 ![Image](CSE15L_LabReport2_ScreenShot2.png)
-- - The method is called: `public String handleRequest(URI url)`.
+- The method is called: `public String handleRequest(URI url)`.
   ```
   public String handleRequest(URI url){
         if (url.getPath().equals("/")) {
@@ -103,3 +103,10 @@ using `add-message?s=Hello`
   The reason that they changed is the same as screenshot 1.
 
 # Part 2
+Using the command line, show with `ls` and take screenshots of:
+1. The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+2. The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
+3. A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+
+## The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+
