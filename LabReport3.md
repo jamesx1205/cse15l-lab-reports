@@ -38,6 +38,7 @@ JUnit Test:
 	}
 
 ```
+
 Associated code:
 ```
 static void reverseInPlace(int[] arr) {
@@ -46,11 +47,12 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+
 3. Screenshot for the Symptom
    
 ![Image](CSE15L_LabReport3_ScreenShotForSymptom.png)
 
-5. The Bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+4. The Bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 Before Code:
 ```
 static void reverseInPlace(int[] arr) {
@@ -59,6 +61,7 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+
 After Code:
 ```
   static void reverseInPlace(int[] arr) {
@@ -68,6 +71,7 @@ After Code:
     }
   }
 ```
+
 The fix was creating a `temp` array that stores the original array and change each part of the array reversed from the temporary stored array.
 
 # Part 2 - Researching Commands
