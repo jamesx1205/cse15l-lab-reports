@@ -211,10 +211,10 @@ In this case, we used `-size +100k` to find the file that are larger than 100 ki
 # Sources used:
 1. https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 2. Using ChatGPT 
-```
 Prompt:
- What does find do in the command line and what are some command-line options?
+> What does find do in the command line and what are some command-line options?
 
+```
 Output:
 The find command is a powerful command-line utility in Unix-like operating systems that allows you to search for files and directories within a specified directory and its subdirectories based on various criteria. It is particularly useful for locating files that match specific conditions or patterns.
 
