@@ -49,7 +49,7 @@ static void reverseInPlace(int[] arr) {
 ```
 
 3. Screenshot for the Symptom
-   
+
 ![Image](CSE15L_LabReport3_ScreenShotForSymptom.png)
 
 4. The Bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
