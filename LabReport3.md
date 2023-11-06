@@ -9,6 +9,7 @@ Provide:
 Briefly describe why the fix addresses the issue.
 
 1. A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+
 JUnit Test:
 ```
 @Test
@@ -27,6 +28,7 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 2. An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+
 JUnit Test:
 
 ```
@@ -52,6 +54,7 @@ static void reverseInPlace(int[] arr) {
 ![Image](CSE15L_LabReport3_ScreenShotForSymptom.png)
 
 4. The Bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+
 Before Code:
 ```
 static void reverseInPlace(int[] arr) {
@@ -84,7 +87,7 @@ $ find ./technical/ -name chapter-1.txt
 ```
 In this example, we can see that we are finding `chapter-1.txt` in the `./technical`file, and it outputs the where that files is in the directory. Which is `./technical/911report/chapter-1.txt`. This is useful because it can tell us where the files we want is at. 
 
-Example 2 - find `*.txt` in ``./911report`
+Example 2 - find `*.txt` in `./911report`
 ```
 $ find ./technical/911report  -name "*.txt"
 ./technical/911report/chapter-1.txt
