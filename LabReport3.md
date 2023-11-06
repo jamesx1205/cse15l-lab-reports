@@ -1,5 +1,4 @@
-# Lab Report3
-Bugs and Commands
+# Lab Report3 -Bugs and Commands
 
 # Part 1 - Bugs
 Provide:
@@ -38,7 +37,6 @@ JUnit Test:
 	}
 
 ```
-
 Associated code:
 ```
 static void reverseInPlace(int[] arr) {
