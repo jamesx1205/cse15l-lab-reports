@@ -74,7 +74,7 @@ After Code:
   }
 ```
 
-The fix was creating a `temp` array that stores the original array and change each part of the array reversed from the temporary stored array.
+The issue with the code is that it will only replace the first half of the code. This is because it uses `arr[arr.length - i - 1]`, this will make the array replace the starting from the last index to the first one by one and causing the problem of replacing the same value from before. For example, It will make the array {1,2,3,4} to {4,2,3,4} then {4,3,3,4}, the next two will remain the same because it replaces the index[2] with index[1], and index[3] with index[0] which will return 3 by 3 and 4 by 4 as it was replacing the replaced value it will only reverse the code for the first half of the array. The fix was creating a `temp` array that stores the original array and changes each part of the array reversed from the temporarily stored array. This is necessary because it will use the previous array stored in `temp` and replace the actual array using the index from the temporarily stored array. 
 
 # Part 2 - Researching Commands
 Using command `find`
