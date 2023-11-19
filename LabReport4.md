@@ -16,9 +16,9 @@ In this step, I clone the fork of the repository from my GitHub account using `g
 In this step, I used `bash test.sh` to run the test. It shows one failure out of the two test runs; therefore, this is a failure.
 
 ## Step 7 - Edit the code file to fix the failing test
-![image](LabReport4_Step7#1.png)
+![image](LabReport4_Step7_1.png)
 
-![image](LabReport4_Step7#2.png)
+![image](LabReport4_Step7_2.png)
 
 In this step, I used `vim ListExamples.java` to get into the file in the terminal using `vim`. Then:
 > Keys pressed: <3><4><j><e><x><i><2><esc><:><w><q><enter>
