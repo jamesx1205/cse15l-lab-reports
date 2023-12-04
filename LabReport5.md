@@ -8,6 +8,7 @@
 Hi, I have a problem when I am working on the List-Examples-Grader, and I cannot find out how to resolve the issue. I have a few guesses of what might cause the failure. 
 
 Here is the output of the error:
+
 ![image](LabReport5_OutputError.png)
 
 Here is the code for the grade.sh file:
@@ -45,9 +46,11 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java 2> feedback.tx
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples >output.txt
 ```
 Here is the directory before running the code:
+
 ![image](LabReport5_FileAndDirectory.png)
 
 Here is the directory after running the code:
+
 ![image](LabReport5_directoryAfterCode.png)
 
 Description:
@@ -138,7 +141,8 @@ This shows that it works because the file `https://github.com/ucsd-cse15l-f22/li
 
 ## 4. All the information needed
 
-- The file & directory structure needed
+- The file & directory structure needed:
+
 ![image](LabReport5_FileAndDirectory.png)
 
 - The contents of each file before fixing the bug
